@@ -52,7 +52,7 @@ function Nav() {
     <nav className="nav">
       <div className="container nav-inner">
         <Link className="brand" to="/">
-          <span className="brand-dot" aria-hidden="true"></span>
+          <img src="/logos/puffin_logo.png" alt="Puffin Logo" style={{ height: '90%', maxHeight: '2rem', width: 'auto', display: 'inline-block', verticalAlign: 'middle' }} />
           <span>Two on the Move</span>
         </Link>
         <div className="menu">
@@ -96,8 +96,8 @@ function Hero() {
       <div className="hero-card">
         <div className="hero-media" aria-hidden="true">
           <img 
-          loading="eager" 
-          alt="Sunrise over mountains" 
+          loading="Thingvilir" 
+          alt="Distant Mountains" 
           src="/images/thingvalir_nature.jpeg" />
         </div>
         <div className="hero-content">

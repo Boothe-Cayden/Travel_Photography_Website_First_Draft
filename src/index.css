@@ -3,7 +3,7 @@
 *{ box-sizing:border-box } html,body{ height:100% } body{ margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"; color:var(--text); background:var(--bg); accent-color:var(--brand)}
 a{ color:var(--brand); text-decoration:none; transition:color .2s } a:hover{ color:var(--accent) }
 
-.nav{ display:flex; align-items:center; justify-content:space-between; gap:2rem; padding:2rem 0; max-width:1200px; margin:0 auto }
+.nav{ display:flex; align-items:center; justify-content:space-between; gap:2rem; padding:.5rem 0; max-width:1480px; margin:0 auto }
 .brand{ font-size:2rem; font-weight:700; letter-spacing:-.03em; color:var(--brand); }
 .nav-links{ display:flex; gap:2rem; }
 .nav-links a{ font-weight:500; color:var(--text); opacity:.88; padding:.25em .5em; border-radius:var(--radius); transition:background .15s }
@@ -92,7 +92,7 @@ body {
   margin: 0;
   font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
   color: var(--text);
-  background: var(--bg);
+  background: linear-gradient(270deg, rgba(79,124,255,0.03) 30%, #ffffff 20%);
   accent-color: var(--brand);
 }
 a { color: inherit; text-decoration: none; }
