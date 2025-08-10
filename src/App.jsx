@@ -95,7 +95,10 @@ function Hero() {
     <header className="hero container">
       <div className="hero-card">
         <div className="hero-media" aria-hidden="true">
-          <img loading="eager" alt="Sunrise over mountains" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2400&auto=format&fit=crop" />
+          <img 
+          loading="eager" 
+          alt="Sunrise over mountains" 
+          src="/images/thingvalir_nature.jpeg" />
         </div>
         <div className="hero-content">
           <span className="kicker">Travel Photography & Stories</span>
